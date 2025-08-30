@@ -2,12 +2,12 @@
 
 Bu proje, **Kaggle Playground Series - Season 5, Episode 8** yarışması için hazırlanmıştır.  
 Amaç: Bir müşterinin banka vadeli mevduatına abone olup olmayacağını tahmin etmek.  
-Modelleme sürecinde **LightGBM** kullanılarak **%97.58 AUC** başarı elde edilmiştir. 🚀  
+Modelleme sürecinde **LightGBM** kullanılarak **%97.058 AUC** başarı elde edilmiştir. 🚀  
 
 
 ## 🚀 Sonuçlar
 - Model: **LightGBM**
-- Cross-Validation AUC: **0.9758**
+- Cross-Validation AUC: **0.97058**
 - Kaggle Yarışma Linki: [Playground Series S5E8](https://www.kaggle.com/competitions/playground-series-s5e8/overview)
 
 ## 🔧 Kullanılan Kütüphaneler
@@ -30,7 +30,7 @@ Modelleme sürecinde **LightGBM** kullanılarak **%97.58 AUC** başarı elde edi
 ## 📌 Notlar
 - Stratified K-Fold (8 fold) kullanıldı.  
 - Erken durdurma (early stopping) ile aşırı öğrenme engellendi.  
-- Final model %97.58 AUC ile yüksek doğruluk sağlamıştır.  
+- Final model %97.058 AUC ile yüksek doğruluk sağlamıştır.  
 
 ---
 
